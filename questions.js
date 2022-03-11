@@ -52,27 +52,22 @@ export default [
     },
 
     {
-        type: 'list',
+        type: 'checkbox',
         name: 'q5',
         message: 'Crows can recognize your face for up to half a decade and even hold a grudge.',
         choices: [
-            "larger beaks, red wings, and soft chirps.",
-            "intelligence, adaptability and loud, harsh caw.",
-            "friendliness to humans, love for peanuts, and quack.",
-            "hooked beaks, wide wingspan, and high-pitched whistling.",
-
+            "True",
+            "False",
         ]
     },
 
     {
-        type: 'list',
+        type: 'checkbox',
         name: 'q6',
         message: 'Crows mostly mate for life and band together in tight-knit families.',
         choices: [
-            "larger beaks, red wings, and soft chirps.",
-            "intelligence, adaptability and loud, harsh caw.",
-            "friendliness to humans, love for peanuts, and quack.",
-            "hooked beaks, wide wingspan, and high-pitched whistling.",
+            "True",
+            "False",
 
         ]
     },
@@ -86,6 +81,19 @@ export default [
             "Pool",
             "Murder",
             "Team",
+
+        ]
+    },
+
+    {
+        type: 'rawlist',
+        name: 'q8',
+        message: 'Crows have around how many different calls?',
+        choices: [
+            "12",
+            "250",
+            "3",
+            "150",
 
         ]
     },

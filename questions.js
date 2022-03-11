@@ -86,14 +86,11 @@ export default [
     },
 
     {
-        type: 'rawlist',
+        type: 'output',
         name: 'q8',
-        message: 'Crows have around how many different calls?',
+        message: 'Crows have around ____ different calls.',
         choices: [
-            "12",
             "250",
-            "3",
-            "150",
 
         ]
     },
